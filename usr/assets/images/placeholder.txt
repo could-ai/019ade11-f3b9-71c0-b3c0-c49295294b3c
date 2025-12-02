@@ -1,0 +1,7 @@
+This is a placeholder file to ensure the assets/images directory is created.
+Please add your game images here, for example:
+- main_menu_bg.png
+- play_button.png
+- coin.png
+- player.png
+- enemy.png

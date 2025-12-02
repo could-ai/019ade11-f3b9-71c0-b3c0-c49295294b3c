@@ -1,0 +1,5 @@
+This is a placeholder file to ensure the assets/audio directory is created.
+Please add your game audio files here, for example:
+- background_music.mp3
+- jump_sound.wav
+- coin_collect.wav

@@ -4,19 +4,15 @@ publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.7.2
+  sdk: '>=3.2.3 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
-  # Game Engine
   flame: ^1.16.0
-  # State Management
   provider: ^6.1.1
-  # Local Storage
   shared_preferences: ^2.2.2
-  # Audio (Flame has built-in audio, but we will use basic audio wrappers)
   flame_audio: ^2.1.0
 
 dev_dependencies:
@@ -26,3 +22,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/audio/
